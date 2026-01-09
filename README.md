@@ -1,16 +1,35 @@
-# to_do_app_with_gemini_agent
 
-A new Flutter project.
+📝 Flutter Pro Task Manager
+A professional-grade To-Do application built with Flutter, focused on clean architecture and high-performance local storage.
 
-## Getting Started
+🚀 Key Features
+Advanced CRUD: Create, Read, Update, and Delete tasks with a modern UI.
 
-This project is a starting point for a Flutter application.
+Detailed Task Metadata: Manage Title, Description, Assignee, and Role.
 
-A few resources to get you started if this is your first Flutter project:
+Smart Storage: Powered by Hive_CE for lightning-fast local persistence.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+State Management: Reactive UI updates using GetX.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Modern Interaction:
+
+Swipe to Delete: Quick removal using Dismissible.
+
+Long Press: Contextual actions for task management.
+
+Date-wise History: Automatically groups tasks by date for a clean timeline view.
+
+🎨 Design & UI
+Typography: Poppins (Global)
+
+Color Palette: Modern Orange, Success Green, and Clean White.
+
+Architecture: MVC (Model-View-Controller) for high maintainability.
+
+
+lib/
+├── app/
+│   ├── core/            # AppColors, AppTextStyles, HiveConstants
+│   ├── data/            # TaskModel & HiveService
+│   ├── modules/         # MVC: Controllers & Views (Home, History, Widgets)
+│   └── main.dart        # Initialization & Dependency Injection
