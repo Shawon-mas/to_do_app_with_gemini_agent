@@ -23,26 +23,7 @@
 ## 📱 App Preview
 
 
-<p align="center">
-    <tr>
-      <td align="center"><b>Dashboard</b></td>
-      <td align="center"><b>Create/Edit Task</b></td>
-      <td align="center"><b>Task History</b></td>
-    </tr>
-    <tr>
-      <td><img src="assets/images/1.png" width="200" alt="Dashboard"></td>
-      <td><img src="assets/images/3.png" width="200" alt="Create Task"></td>
-      <td><img src="assets/images/2.png" width="200" alt="Task History"></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Update Task</b></td>
-      <td align="center"><b>Swipe/Delete Action</b></td>
-    </tr>
-    <tr>
-      <td><img src="assets/images/5.png" width="200" alt="Update Task"></td>
-      <td><img src="assets/images/4.png" width="200" alt="Delete Action"></td>
-    </tr>
-</p>
+<table> <tr> <th align="center">Dashboard</th> <th align="center">Create/Edit Task</th> <th align="center">Task History</th> </tr> <tr> <td><img src="assets/images/1.png" width="220" alt="Dashboard"></td> <td><img src="assets/images/3.png" width="220" alt="Create Task"></td> <td><img src="assets/images/2.png" width="220" alt="Task History"></td> </tr> <tr> <th align="center">Update Task</th> <th align="center">Swipe/Delete Action</th> <th></th> </tr> <tr> <td><img src="assets/images/5.png" width="220" alt="Update Task"></td> <td><img src="assets/images/4.png" width="220" alt="Delete Action"></td> <td></td> </tr> </table>
 
 
 
