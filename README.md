@@ -32,15 +32,15 @@
     <tr>
       <td><img src="assets/images/1.png" width="200" alt="Dashboard"></td>
       <td><img src="assets/images/3.png" width="200" alt="Create Task"></td>
-      <td><img src="assets/images/4.png" width="200" alt="Task History"></td>
+      <td><img src="assets/images/2.png" width="200" alt="Task History"></td>
     </tr>
     <tr>
       <td align="center"><b>Update Task</b></td>
       <td align="center"><b>Swipe/Delete Action</b></td>
     </tr>
     <tr>
-      <td><img src="assets/images/1.png" width="200" alt="Update Task"></td>
-      <td><img src="assets/images/1.png" width="200" alt="Delete Action"></td>
+      <td><img src="assets/images/5.png" width="200" alt="Update Task"></td>
+      <td><img src="assets/images/4.png" width="200" alt="Delete Action"></td>
     </tr>
 </p>
 
