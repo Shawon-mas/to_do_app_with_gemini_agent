@@ -1,29 +1,77 @@
+# 📝 Flutter Pro Task Manager
 
-📝 Flutter Pro Task Manager
-A professional-grade To-Do application built with Flutter, focused on clean architecture and high-performance local storage.
 
-🚀 Key Features
-Advanced CRUD: Create, Read, Update, and Delete tasks with a modern UI.
 
-Detailed Task Metadata: Manage Title, Description, Assignee, and Role.
 
-Smart Storage: Powered by Hive_CE for lightning-fast local persistence.
+---
 
-State Management: Reactive UI updates using GetX.
+## 🚀 Key Features
 
-Modern Interaction:
+*   **Clean & Modern UI:** Aesthetically pleasing design with a focus on usability.
+*   **Full CRUD Functionality:** Create, read, update, and delete tasks seamlessly.
+*   **State Management with GetX:** Efficient and reactive state management for a smooth UX.
+*   **Local Persistence with Hive_CE:** High-performance, NoSQL database for offline-first capabilities.
+*   **Interactive Task Management:**
+    *   **Swipe to Delete:** Quickly discard tasks with a simple gesture.
+    *   **Long-Press Actions:** Access contextual options with haptic feedback.
+*   **Task History:** View tasks grouped by date for better organization.
+*   **Reusable Components:** Modular UI widgets for consistency and rapid development.
+*   **Clean Architecture:** Follows MVC principles for a scalable and testable codebase.
 
-Swipe to Delete: Quick removal using Dismissible.
+---
 
-Long Press: Contextual actions for task management.
+## 📱 App Preview
 
-Date-wise History: Automatically groups tasks by date for a clean timeline view.
 
-🎨 Design & UI
-Typography: Poppins (Global)
+<p align="center">
+    <tr>
+      <td align="center"><b>Dashboard</b></td>
+      <td align="center"><b>Create/Edit Task</b></td>
+      <td align="center"><b>Task History</b></td>
+    </tr>
+    <tr>
+      <td><img src="assets/images/1.png" width="200" alt="Dashboard"></td>
+      <td><img src="assets/images/3.png" width="200" alt="Create Task"></td>
+      <td><img src="assets/images/4.png" width="200" alt="Task History"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Update Task</b></td>
+      <td align="center"><b>Swipe/Delete Action</b></td>
+    </tr>
+    <tr>
+      <td><img src="assets/images/1.png" width="200" alt="Update Task"></td>
+      <td><img src="assets/images/1.png" width="200" alt="Delete Action"></td>
+    </tr>
+</p>
 
-Color Palette: Modern Orange, Success Green, and Clean White.
 
-Architecture: MVC (Model-View-Controller) for high maintainability.
+
+## 📂 Project Structure
+
+```text
+lib/
+├── app/
+│   ├── constants/
+│   │   ├── app_colors.dart
+│   │   ├── app_constants.dart
+│   │   ├── app_text_styles.dart
+│   │   └── hive_constants.dart
+│   ├── controller/
+│   │   └── task_controller.dart
+│   ├── data/
+│   │   ├── models/
+│   │   │   └── task.dart
+│   │   └── services/
+│   │       └── hive_service.dart
+│   └── ui/
+│       ├── screens/
+│       │   ├── home_screen.dart
+│       │   └── task_history_screen.dart
+│       └── widgets/
+│           ├── custom_button.dart
+│           ├── custom_dropdown.dart
+│           └── custom_text_field.dart
+└── main.dart
+```
 
 
