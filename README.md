@@ -27,9 +27,3 @@ Color Palette: Modern Orange, Success Green, and Clean White.
 Architecture: MVC (Model-View-Controller) for high maintainability.
 
 
-lib/
-├── app/
-│   ├── core/            # AppColors, AppTextStyles, HiveConstants
-│   ├── data/            # TaskModel & HiveService
-│   ├── modules/         # MVC: Controllers & Views (Home, History, Widgets)
-│   └── main.dart        # Initialization & Dependency Injection
